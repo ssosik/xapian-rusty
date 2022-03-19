@@ -246,6 +246,7 @@ pub enum FeatureFlag {
 
 //use cxx::CxxString;
 
+#[allow(dead_code)]
 #[cxx::bridge]
 pub(crate) mod ffi {
     #[namespace = "Xapian"]
